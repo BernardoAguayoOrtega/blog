@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A profesional blog created with html and css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/blog.git"
+  },
+  "author": "Bernardo Aguato Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/blog/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/blog#readme"
+}
