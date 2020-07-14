@@ -53,7 +53,7 @@ header .social-media-container .social-media-icons {
 
 /*social-media-icons*/
 
-header .social-media-container .social-media-icons img {
-    height: 90%;
-    width: 90%;
+header .social-media-container .social-media-icons span::before {
+    color: white;
+    font-size: 35px;
 }
