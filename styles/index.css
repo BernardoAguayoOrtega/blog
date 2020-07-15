@@ -103,3 +103,31 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
+
+
+/*Home main*/
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    margin-top: 80px;
+    height: 350px;
+}
+
+
+/*home main section elements*/
+
+.home-main .home-main__text {
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
+}
