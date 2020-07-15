@@ -54,6 +54,52 @@ header .social-media-container .social-media-icons {
 /*social-media-icons*/
 
 header .social-media-container .social-media-icons span::before {
-    color: white;
+    color: whitesmoke;
     font-size: 35px;
+}
+
+
+/*Nav config styles*/
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90px;
+}
+
+
+/*nav logo*/
+
+nav .profile-logo {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, qfr);
+}
+
+nav .profile-logo img {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+nav .profile-logo #profile-logo-word {
+    margin-left: -20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*nav profile link*/
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
 }
