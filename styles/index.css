@@ -1,3 +1,7 @@
+/*Import google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
 /*Configuration for body and keep fixed the main section*/
 
 body {
@@ -72,9 +76,9 @@ nav {
 /*nav logo*/
 
 nav .profile-logo {
+    margin-right: 80%;
     margin-left: 50px;
     display: grid;
-    grid-template-columns: repeat(2, qfr);
 }
 
 nav .profile-logo img {
@@ -132,10 +136,23 @@ nav .profile-link a {
 /*home main section elements*/
 
 .home-main .home-main__text {
+    font-family: 'Crimson Text', serif;
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
     color: whitesmoke;
     text-align: center;
     text-shadow: 4px 4px black;
+}
+
+
+/*Responive design*/
+
+@media only screen and (max-width: 700px) {
+    /*nav logo*/
+    nav .profile-logo {
+        margin-right: 60%;
+        margin-left: 50px;
+        display: grid;
+    }
 }
