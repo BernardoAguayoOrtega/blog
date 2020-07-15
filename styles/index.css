@@ -36,7 +36,7 @@ header .social-media-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #85dcb8;
+    background-color: #41b3a3;
 }
 
 header .social-media-container .social-media-icons {
@@ -65,6 +65,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 90px;
+    background-color: #C38D9E;
 }
 
 
@@ -85,8 +86,9 @@ nav .profile-logo img {
 nav .profile-logo #profile-logo-word {
     margin-left: -20px;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 450;
     font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
 
 
@@ -100,8 +102,9 @@ nav .profile-link {
 }
 
 nav .profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
+    color: whitesmoke;
+    border-bottom: 1px solid wheat;
+    font-weight: 500;
 }
 
 
@@ -111,6 +114,10 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
+    background-image: url("https://images.pexels.com/photos/3588091/pexels-photo-3588091.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home-main section {
@@ -128,6 +135,7 @@ nav .profile-link a {
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
-    color: black;
+    color: whitesmoke;
     text-align: center;
+    text-shadow: 4px 4px black;
 }
