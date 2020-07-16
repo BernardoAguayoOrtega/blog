@@ -112,7 +112,63 @@ nav .profile-link a {
 }
 
 
-/*Responive design*/
+/*blogs main => main section*/
+
+.blogs-main {
+    display: grid;
+}
+
+
+/*main section => blogs news container*/
+
+.blogs-main__news-container {
+    background-color: black;
+    opacity: .95;
+    padding: 0 50px 40px;
+}
+
+
+/*blogs main news that means the main news*/
+
+.blogs-main__news {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-main__news h2 {
+    color: whitesmoke;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400y;
+}
+
+
+/*img blogs news container*/
+
+.blogs-main__news-img-container {
+    grid-column: 1;
+}
+
+
+/*image of main container*/
+
+.blogs-main__news-img-container img {}
+
+
+/*blogs container*/
+
+.blogs-main__news-info-container {
+    grid-column: 2;
+}
+
+.blogs-main__news-info-container h3,
+p {
+    color: whitesmoke;
+    margin-top: 35px;
+}
+
+
+/*Responsive design*/
 
 @media only screen and (max-width: 700px) {
     /*nav logo*/

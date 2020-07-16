@@ -135,7 +135,7 @@ nav .profile-link a {
 
 /*home main section elements*/
 
-.home-main .home-main__text {
+.home-main__text {
     font-family: 'Crimson Text', serif;
     font-size: 30px;
     font-weight: 700px;
@@ -148,7 +148,7 @@ nav .profile-link a {
 
 /*Home main button*/
 
-.home-main .home-main__button {
+.home-main__button {
     text-transform: uppercase;
     text-decoration: none;
     background: black;
@@ -163,8 +163,8 @@ nav .profile-link a {
 
 /*home main hover button*/
 
-.home-main .home-main__button:hover,
-.home-main .home-main__button:hover a {
+.home-main__button:hover,
+.home-main__button:hover a {
     background: whitesmoke;
     letter-spacing: 1px;
     -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
@@ -174,7 +174,7 @@ nav .profile-link a {
     transition: all 0.4s ease 0s;
 }
 
-.home-main .home-main__button a {
+.home-main__button a {
     color: whitesmoke;
     font-weight: 400;
     font-family: 'Crimson Text', serif;
