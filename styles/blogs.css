@@ -169,6 +169,18 @@ nav .profile-link a {
 p {
     color: whitesmoke;
     margin-bottom: 35px;
+    font-weight: 100;
+}
+
+.blogs-main__news-info-container h3 {
+    font-weight: 600;
+}
+
+.blogs-main__button {
+    color: whitesmoke;
+    border: 1px solid wheat;
+    padding: 5px 10px;
+    font-family: 'Crimson Text', serif;
 }
 
 
