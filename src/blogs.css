@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
+/*grid container global class*/
+
+.grid-container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
 /*Configuration for body and keep fixed the main section*/
 
 body {
@@ -54,7 +63,7 @@ header .social-media-container .social-media-icons {
 
 header .social-media-container .social-media-icons span::before {
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
@@ -220,6 +229,37 @@ p {
 .blogs-posts-container__post-container img {
     width: 100%;
     border: black 1px solid;
+}
+
+.grid-container h2 {
+    width: 100%;
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5,
+a {
+    transition: 1s;
+    color: whitesmoke;
+    font-family: 'Crimson Text', serif;
+    font-weight: 100;
+}
+
+footer a:hover {
+    font-size: 20px;
+    transition: 2s;
 }
 
 
