@@ -173,8 +173,16 @@ p {
 }
 
 .blogs-main__news-info-container h3 {
-    font-weight: 600;
+    font-weight: 500;
 }
+
+.blogs-main__news-info-container:hover>h3 {
+    font-weight: 800;
+    transition: 1s;
+}
+
+
+/*general button style*/
 
 .blogs-main__button {
     color: whitesmoke;
@@ -183,10 +191,36 @@ p {
     font-family: 'Crimson Text', serif;
 }
 
+.blogs-main__button--light {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-family: 'Crimson Text', serif;
+}
 
-/*second section*/
 
-.blogs-main__blogs-posts-container {}
+/*second section (others posts section)*/
+
+.blogs-posts-container__post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container__post-container p {
+    color: black;
+}
+
+.blogs-posts-container__post-container h3,
+p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container__post-container img {
+    width: 100%;
+    border: black 1px solid;
+}
 
 
 /*Responsive design*/
@@ -196,6 +230,5 @@ p {
     nav .profile-logo {
         margin-right: 60%;
         margin-left: 50px;
-        display: grid;
     }
 }
