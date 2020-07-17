@@ -115,7 +115,83 @@ nav .profile-link a {
 }
 
 
-/*contect section*/
+/*Main section*/
+
+
+/*Main Info*/
+
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: black;
+    opacity: .95;
+    margin-bottom: 30px;
+    max-height: 300px;
+}
+
+
+/*up section of main section*/
+
+.profile-main-container--up {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-main-container--up h2,
+p {
+    color: whitesmoke;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+}
+
+
+/*main image*/
+
+.profile-main-container-img {
+    width: 40%;
+    max-width: 250px;
+    margin-right: 30px;
+}
+
+.profile-main-container img {
+    width: 100%;
+}
+
+
+/*project header*/
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    border-bottom: wheat 5px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.profile-main-projects p {
+    color: black;
+}
+
+
+/*projects container*/
+
+.profile-main-projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.project-container img {
+    width: 100%;
+}
+
+
+/*contact section*/
 
 .contact-main-container {
     background-color: whitesmoke;
