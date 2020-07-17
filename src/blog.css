@@ -138,6 +138,34 @@ nav .profile-link a {
 
 .blogpost-main-container h3 {
     border-bottom: 5px solid wheat;
+    font-family: 'Crimson Text', serif;
+}
+
+
+/*contect section*/
+
+.contact-main-container {
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-main-container--left {
+    grid-column: 1;
+}
+
+.contact-main-container--right {
+    grid-column: 2;
+}
+
+.contact-main-container a {
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    border-bottom: wheat 5px solid;
 }
 
 
