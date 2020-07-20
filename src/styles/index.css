@@ -181,13 +181,76 @@ nav .profile-link a {
 }
 
 
-/*Responive design*/
+/*Responsive design*/
+
+
+/*700px*/
 
 @media only screen and (max-width: 700px) {
     /*nav logo*/
     nav .profile-logo {
-        margin-right: 60%;
+        margin-right: 50%;
         margin-left: 50px;
         display: grid;
+    }
+    .home-main section {
+        width: 100%;
+    }
+}
+
+
+/*600px*/
+
+@media only screen and (max-width: 600px) {
+    /*nav logo*/
+    nav .profile-logo {
+        margin-right: 50%;
+        margin-left: 50px;
+        display: grid;
+    }
+}
+
+
+/*500px*/
+
+@media only screen and (max-width: 500px) {
+    /*nav logo*/
+    nav .profile-logo {
+        margin-right: 40%;
+        margin-left: 50px;
+        display: grid;
+    }
+    .home-main section {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/*400px*/
+
+@media only screen and (max-width: 400px) {
+    /*nav logo*/
+    nav .profile-logo {
+        margin-right: 0;
+        margin-left: 50px;
+        display: grid;
+    }
+    .home-main section {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    /*nav logo*/
+    nav .profile-logo {
+        margin-right: 0;
+        margin-left: 50px;
+        display: grid;
+    }
+    .home-main section {
+        width: 90%;
+        margin: 0 auto;
     }
 }
