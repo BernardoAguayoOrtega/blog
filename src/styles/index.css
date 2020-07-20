@@ -183,7 +183,10 @@ nav .profile-link a {
 
 /*responsive design*/
 
-@media screen and (min-width: 320px) {
+
+/*small mobiles*/
+
+@media screen and (max-width: 320px) {
     nav .profile-logo {
         margin-right: 20%;
     }
@@ -194,5 +197,55 @@ nav .profile-link a {
         width: 100px;
         height: 25px;
         margin-top: -50px;
+    }
+}
+
+
+/*medium mobiles*/
+
+@media screen and (max-width: 375px) {
+    nav .profile-logo {
+        margin-right: 20%;
+    }
+    .home-main__text {
+        font-size: 25px;
+    }
+    .home-main__button {
+        width: 100px;
+        height: 25px;
+        margin-top: -50px;
+    }
+}
+
+
+/*mobile larges*/
+
+@media screen and (max-width: 450px) {
+    nav .profile-logo {
+        margin-right: 20%;
+    }
+    .home-main__text {
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    .home-main__button {
+        width: 100px;
+        height: 25px;
+        margin-top: -50px;
+    }
+}
+
+
+/*tablet*/
+
+@media screen and (max-width: 7680px) {
+    nav .profile-logo {
+        margin-right: 20%;
+    }
+    .home-main__text {
+        font-size: 40px;
+    }
+    .home-main__button {
+        width: 200px;
     }
 }
