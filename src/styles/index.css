@@ -118,7 +118,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url("https://images.pexels.com/photos/3588091/pexels-photo-3588091.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260");
+    background-image: url("https://i.postimg.cc/ZKJqCtmd/example.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
