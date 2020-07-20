@@ -273,7 +273,11 @@ footer a:hover {
         margin-right: 20%;
     }
     .blogs-main__news {
-        grid-template-columns: 180px 120px;
+        grid-template-columns: 180px 110px;
+    }
+    .blogs-main__news-info-container {
+        grid-column: 2;
+        grid-row: 1/ span 2;
     }
     .blogs-main__news p {
         font-size: 10px;
