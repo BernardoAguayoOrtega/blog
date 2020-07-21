@@ -76,6 +76,7 @@ nav {
 /*nav logo*/
 
 nav .profile-logo {
+    transition: 1s;
     margin-right: 80%;
     margin-left: 50px;
     display: grid;
@@ -96,6 +97,14 @@ nav .profile-logo #profile-logo-word {
 }
 
 
+/*hover*/
+
+nav .profile-logo:hover {
+    box-shadow: 5px 10px #888888;
+    transition: 2s;
+}
+
+
 /*nav profile link*/
 
 nav .profile-link {
@@ -106,9 +115,21 @@ nav .profile-link {
 }
 
 nav .profile-link a {
+    transition: 1s;
     color: black;
     border-bottom: 3px solid wheat;
     font-weight: 500;
+}
+
+
+/*hover*/
+
+.profile-link a:hover {
+    color: black;
+    border-bottom: 3px solid wheat;
+    font-weight: 500;
+    box-shadow: 5px 10px #888888;
+    transition: 2s;
 }
 
 
@@ -186,66 +207,84 @@ nav .profile-link a {
 
 /*small mobiles*/
 
-@media screen and (max-width: 320px) {
-    nav .profile-logo {
-        margin-right: 20%;
-    }
-    .home-main__text {
-        font-size: 20px;
-    }
-    .home-main__button {
-        width: 100px;
-        height: 25px;
-        margin-top: -50px;
-    }
-}
-
-
-/*medium mobiles*/
-
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) {
     nav .profile-logo {
         margin-right: 20%;
     }
     .home-main__text {
         font-size: 25px;
+        margin-bottom: -20%;
     }
     .home-main__button {
         width: 100px;
         height: 25px;
-        margin-top: -50px;
     }
 }
 
 
-/*mobile larges*/
+/*mobile m*/
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 375px) {
     nav .profile-logo {
         margin-right: 20%;
     }
     .home-main__text {
-        margin-top: -10px;
         font-size: 30px;
+        margin-bottom: -2%;
     }
     .home-main__button {
-        width: 100px;
-        height: 25px;
-        margin-top: -50px;
+        width: 110px;
+        height: 27px;
+    }
+}
+
+
+/*large mobile*/
+
+@media screen and (min-width: 425px) {
+    nav .profile-logo {
+        margin-right: 20%;
+    }
+    .home-main__text {
+        font-size: 30px;
+        margin-bottom: -2%;
+    }
+    .home-main__button {
+        width: 110px;
+        height: 27px;
     }
 }
 
 
 /*tablet*/
 
-@media screen and (max-width: 7680px) {
+@media screen and (min-width: 768px) {
     nav .profile-logo {
         margin-right: 20%;
     }
     .home-main__text {
-        font-size: 40px;
+        font-size: 45px;
+        margin-bottom: -1%;
     }
     .home-main__button {
         width: 200px;
+        height: 35px;
+    }
+}
+
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) {
+    nav .profile-logo {
+        margin-right: 20%;
+    }
+    .home-main__text {
+        font-size: 50px;
+        margin-bottom: -2%;
+    }
+    .home-main__button {
+        width: 200px;
+        height: 50px;
     }
 }
